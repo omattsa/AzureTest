@@ -8,7 +8,7 @@
     $myName = "Skepta";
     $myAge = 27;
     $myCrew = "Boy Better Know";
-    echo "My name is " . $myName . "and i am " . $myAge . "I rep for the crew - " . $myCrew;
+    echo "My name is " . $myName . " and i am " . $myAge . " I rep for the crew - " . $myCrew;
     ?>
 </p>
 </body>
