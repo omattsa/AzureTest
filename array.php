@@ -10,6 +10,11 @@
     foreach($provisionedActivities as $x){
         print "<p>$x</p>";
     }
+
+    $provisionedActivities[1] = "hugs";
+    foreach($provisionedActivities as $y){
+        print "<p>$y</p>";
+    }
     ?>
 </p>
 </body>
