@@ -5,20 +5,20 @@
 <body>
 <p>
     <?php
-   $numberofHobbits = 6;
+   $wantedGoods = "specs";
 
-    switch ($numberofHobbits){
-        case 1:
-            echo "1 sad hobbit";
+    switch ($wantedGoods){
+        case "specs":
+            echo "You must be 16 to buy specs";
             break;
-        case 2:
-            echo "2 happy hobbits";
+        case "mugs":
+            echo "You must be 18 to buy mugs";
             break;
-        case 3:
-            echo "3 hobbits are a crowd";
+        case "sausage":
+            echo "You must be 21 to buy Sausage Rolls";
             break;
         default:
-            echo "All the hobbits have gone home";
+            echo "Why are Aberdonians such morons?";
     }
     ?>
 </p>
