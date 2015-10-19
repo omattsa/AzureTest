@@ -5,10 +5,19 @@
 <body>
 <p>
     <?php
-    $myName = "Skepta";
-    $myAge = 27;
-    $myCrew = "Boy Better Know";
-    echo "My name is " . $myName . " and i am " . $myAge . " I rep for the crew - " . $myCrew;
+    $myAge = 15;
+    if ($myAge >= 21){
+        print "You can buy Sausage Rolls, Mugs & Specs ";
+    }
+    elseif ($myAge >= 18){
+        print "You can buy Mugs & Specs ";
+    }
+    elseif($myAge >= 16) {
+        print "You Can buy Specs ";
+    }
+    else{
+        print "You can't buy anything child! ";
+    }
     ?>
 </p>
 </body>
