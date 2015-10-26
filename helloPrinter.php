@@ -5,7 +5,7 @@
 <body>
 <p>
     <?php
-    $planet = $_GET["Earth"];
+    $planet = $_GET["planet"];
     echo "Hello ". $planet;
     ?>
 </p>
